@@ -39,6 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Decorate\Starbuzz\Beverage.cs" />
+    <Compile Include="Decorate\Starbuzz\CondimentDecorator.cs" />
+    <Compile Include="Decorate\Starbuzz\DarkRoast.cs" />
+    <Compile Include="Decorate\Starbuzz\Decat.cs" />
+    <Compile Include="Decorate\Starbuzz\Espresso.cs" />
+    <Compile Include="Decorate\Starbuzz\HouseBlend.cs" />
+    <Compile Include="Decorate\Starbuzz\Mocha.cs" />
     <Compile Include="Observer\WeatherMonitor\CurrentConditionDisplay.cs" />
     <Compile Include="Observer\WeatherMonitor\ForecastDisplay.cs" />
     <Compile Include="Observer\WeatherMonitor\IDisplayElement.cs" />
