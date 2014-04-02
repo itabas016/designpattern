@@ -45,6 +45,7 @@
     <Compile Include="Decorate\Starbuzz\Decat.cs" />
     <Compile Include="Decorate\Starbuzz\Espresso.cs" />
     <Compile Include="Decorate\Starbuzz\HouseBlend.cs" />
+    <Compile Include="Decorate\Starbuzz\Milk.cs" />
     <Compile Include="Decorate\Starbuzz\Mocha.cs" />
     <Compile Include="Observer\WeatherMonitor\CurrentConditionDisplay.cs" />
     <Compile Include="Observer\WeatherMonitor\ForecastDisplay.cs" />

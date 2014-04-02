@@ -20,7 +20,7 @@ namespace DesignPattern.Core.Decorate.Starbuzz
             return beverage.GetDescription() + ", Mocha";
         }
 
-        public override double Cost()
+        public double Cost()
         {
             return 0.20 + beverage.Cost();
         }

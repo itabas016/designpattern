@@ -10,7 +10,6 @@ namespace DesignPattern.Core.Decorate.Starbuzz
     {
         public abstract string GetDescription();
 
-
         public override double Cost()
         {
             throw new NotImplementedException();
