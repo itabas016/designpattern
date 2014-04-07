@@ -41,7 +41,7 @@ namespace DesignPattern.Test.Exercise
         }
     }
 
-    public class InternalB : InternalA
+    internal class InternalB : InternalA
     {
         public readonly Int32 _d = 4;
     }
@@ -56,7 +56,7 @@ namespace DesignPattern.Test.Exercise
         }
     }
 
-    public class PublicC : InternalA
+    internal class PublicC : InternalA
     {
         protected void D()
         {

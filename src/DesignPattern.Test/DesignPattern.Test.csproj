@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Exercise\BasicTest.cs" />
     <Compile Include="Exercise\ClassFamily.cs" />
+    <Compile Include="Exercise\EventTest.cs" />
     <Compile Include="Exercise\FrameworkDynamic.cs" />
     <Compile Include="Observer\WeatherMonitorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
