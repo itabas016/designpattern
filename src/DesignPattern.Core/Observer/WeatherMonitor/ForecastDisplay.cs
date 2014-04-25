@@ -16,7 +16,7 @@ namespace DesignPattern.Core.Observer.WeatherMonitor
             Subject.RegisterObserver(this);
         }
 
-        public void Update(double temperature, double humidirty, double pressure)
+        public void Update(double temperature, double humidity, double pressure)
         {
             throw new NotImplementedException();
         }

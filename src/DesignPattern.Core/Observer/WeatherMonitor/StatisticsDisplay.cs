@@ -16,7 +16,7 @@ namespace DesignPattern.Core.Observer.WeatherMonitor
 
         public double Temperature { get; set; }
 
-        public double Humidirty { get; set; }
+        public double Humidity { get; set; }
 
         public double Pressure { get; set; }
 
@@ -28,17 +28,17 @@ namespace DesignPattern.Core.Observer.WeatherMonitor
             Subject.RegisterObserver(this);
         }
 
-        public void Update(double temperature, double humidirty, double pressure)
+        public void Update(double temperature, double humidity, double pressure)
         {
             this.Temperature = temperature;
-            this.Humidirty = humidirty;
+            this.Humidity = humidity;
             this.Pressure = pressure;
             Display();
         }
 
         public void Display()
         {
-            Console.WriteLine(string.Format("Statistic today is : temperature {0} degrees, humidirty {1} %humidirty and pressuer {2} pressure!", Temperature, Humidirty, Pressure));
+            Console.WriteLine(string.Format("Statistic today is : temperature {0} degrees, humidity {1} %humidity and pressure {2} pressure!", Temperature, Humidity, Pressure));
         }
 
         public double GetAverageTemperature(IList<double> temperatureList, double temperature)

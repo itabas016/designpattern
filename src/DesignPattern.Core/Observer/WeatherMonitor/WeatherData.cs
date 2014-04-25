@@ -10,7 +10,7 @@ namespace DesignPattern.Core.Observer.WeatherMonitor
     {
         public double Temperature { get; set; }
 
-        public double Humidirty { get; set; }
+        public double Humidity { get; set; }
 
         public double Pressure { get; set; }
 
@@ -21,10 +21,10 @@ namespace DesignPattern.Core.Observer.WeatherMonitor
 
         }
 
-        public WeatherData(double temperature, double humidirty, double pressure)
+        public WeatherData(double temperature, double humidity, double pressure)
         {
             this.Temperature = temperature;
-            this.Humidirty = humidirty;
+            this.Humidity = humidity;
             this.Pressure = pressure;
         }
 
@@ -47,7 +47,7 @@ namespace DesignPattern.Core.Observer.WeatherMonitor
             {
                 foreach (var item in ObserverList)
                 {
-                    item.Update(Temperature, Humidirty, Pressure);
+                    item.Update(Temperature, Humidity, Pressure);
                 }
             }
         }
@@ -57,10 +57,10 @@ namespace DesignPattern.Core.Observer.WeatherMonitor
             NotifyObservers();
         }
 
-        public void SetMeasurements(double temperature, double humidirty, double pressure)
+        public void SetMeasurements(double temperature, double humidity, double pressure)
         {
             this.Temperature = temperature;
-            this.Humidirty = humidirty;
+            this.Humidity = humidity;
             this.Pressure = pressure;
             MeasureMentsChanged();
         }

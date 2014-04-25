@@ -11,7 +11,7 @@ namespace DesignPattern.Core.Strategy.SimUDuck
         public void Fly()
         {
             //not do anything and not fly
-            Console.WriteLine("I can`t fly!");
+            Console.WriteLine("I can't fly!");
         }
     }
 }

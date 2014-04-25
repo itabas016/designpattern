@@ -20,16 +20,16 @@ namespace DesignPattern.Core.Observer.WeatherMonitor
             Subject.RegisterObserver(this);
         }
 
-        public void Update(double temperature, double humidirty, double pressure)
+        public void Update(double temperature, double humidity, double pressure)
         {
             this.Temperature = temperature;
-            this.Humidirty = humidirty;
+            this.Humidirty = humidity;
             Display();
         }
 
         public void Display()
         {
-            Console.WriteLine(string.Format("Current Condition is : temperature {0} degrees and humidirty {1} %humidirty!", Temperature, Humidirty));
+            Console.WriteLine(string.Format("Current Condition is : temperature {0} degrees and humidity {1} %humidity!", Temperature, Humidirty));
         }
     }
 }

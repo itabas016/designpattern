@@ -8,6 +8,6 @@ namespace DesignPattern.Core.Observer.WeatherMonitor
 {
     public interface IObserver
     {
-        void Update(double temperature, double humidirty, double pressure);
+        void Update(double temperature, double humidity, double pressure);
     }
 }

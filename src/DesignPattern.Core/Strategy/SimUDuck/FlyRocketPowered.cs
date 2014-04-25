@@ -11,7 +11,7 @@ namespace DesignPattern.Core.Strategy.SimUDuck
         public void Fly()
         {
             //fly with rocket
-            Console.WriteLine("I`m flying with the rocket!");
+            Console.WriteLine("I'm flying with the rocket!");
         }
     }
 }

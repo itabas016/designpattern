@@ -16,7 +16,7 @@ namespace DesignPattern.Core.Strategy.SimUDuck
 
         public override void Display()
         {
-            Console.WriteLine("I`m a model duck!");
+            Console.WriteLine("I'm a model duck!");
         }
     }
 }

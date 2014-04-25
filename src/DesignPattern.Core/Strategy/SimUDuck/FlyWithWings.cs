@@ -11,7 +11,7 @@ namespace DesignPattern.Core.Strategy.SimUDuck
         public void Fly()
         {
             //use the wings to fly
-            Console.WriteLine("I`m flying!");
+            Console.WriteLine("I'm flying!");
         }
     }
 }
