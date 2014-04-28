@@ -39,6 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Command\Restaurant\Client.cs" />
+    <Compile Include="Command\Restaurant\ICommand.cs" />
+    <Compile Include="Command\Restaurant\Invoker.cs" />
+    <Compile Include="Command\Restaurant\OlderPattern\Cooker.cs" />
+    <Compile Include="Command\Restaurant\OlderPattern\Order.cs" />
+    <Compile Include="Command\Restaurant\OlderPattern\Serve.cs" />
+    <Compile Include="Command\Restaurant\Receiver.cs" />
     <Compile Include="Decorate\Starbuzz\Beverage.cs" />
     <Compile Include="Decorate\Starbuzz\CondimentDecorator.cs" />
     <Compile Include="Decorate\Starbuzz\DarkRoast.cs" />
