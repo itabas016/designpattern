@@ -46,6 +46,14 @@
     <Compile Include="Command\Restaurant\OlderPattern\Order.cs" />
     <Compile Include="Command\Restaurant\OlderPattern\Serve.cs" />
     <Compile Include="Command\Restaurant\Receiver.cs" />
+    <Compile Include="Command\SimpleRemoteControl\ConcreteCommand.cs" />
+    <Compile Include="Command\SimpleRemoteControl\ICommand.cs" />
+    <Compile Include="Command\SimpleRemoteControl\Invoker.cs" />
+    <Compile Include="Command\SimpleRemoteControl\Light.cs" />
+    <Compile Include="Command\SimpleRemoteControl\LightOffCommand.cs" />
+    <Compile Include="Command\SimpleRemoteControl\NoCommand.cs" />
+    <Compile Include="Command\SimpleRemoteControl\Receiver.cs" />
+    <Compile Include="Command\SimpleRemoteControl\RemoteControl.cs" />
     <Compile Include="Decorate\Starbuzz\Beverage.cs" />
     <Compile Include="Decorate\Starbuzz\CondimentDecorator.cs" />
     <Compile Include="Decorate\Starbuzz\DarkRoast.cs" />
