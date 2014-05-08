@@ -66,6 +66,14 @@
     <Compile Include="Decorate\Starbuzz\HouseBlend.cs" />
     <Compile Include="Decorate\Starbuzz\Milk.cs" />
     <Compile Include="Decorate\Starbuzz\Mocha.cs" />
+    <Compile Include="Facade\FamilyCinema\Amplifier.cs" />
+    <Compile Include="Facade\FamilyCinema\CDPlayer.cs" />
+    <Compile Include="Facade\FamilyCinema\DVDPlayer.cs" />
+    <Compile Include="Facade\FamilyCinema\PopcornPopper.cs" />
+    <Compile Include="Facade\FamilyCinema\Projector.cs" />
+    <Compile Include="Facade\FamilyCinema\Screen.cs" />
+    <Compile Include="Facade\FamilyCinema\TheaterLights.cs" />
+    <Compile Include="Facade\FamilyCinema\Tuner.cs" />
     <Compile Include="Observer\WeatherMonitor\CurrentConditionDisplay.cs" />
     <Compile Include="Observer\WeatherMonitor\ForecastDisplay.cs" />
     <Compile Include="Observer\WeatherMonitor\IDisplayElement.cs" />
