@@ -95,6 +95,7 @@
     <Compile Include="Strategy\SimUDuck\MuteQuack.cs" />
     <Compile Include="Strategy\SimUDuck\RealQuack.cs" />
     <Compile Include="Strategy\SimUDuck\Squeak.cs" />
+    <Compile Include="Template\StarbuzzExample\CoffeineBeverage.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
