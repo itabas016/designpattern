@@ -75,6 +75,9 @@
     <Compile Include="Facade\FamilyCinema\Screen.cs" />
     <Compile Include="Facade\FamilyCinema\TheaterLights.cs" />
     <Compile Include="Facade\FamilyCinema\Tuner.cs" />
+    <Compile Include="Iterator\MenuExample\DinerMenu.cs" />
+    <Compile Include="Iterator\MenuExample\MenuItem.cs" />
+    <Compile Include="Iterator\MenuExample\PancakeHouseMenu.cs" />
     <Compile Include="Observer\WeatherMonitor\CurrentConditionDisplay.cs" />
     <Compile Include="Observer\WeatherMonitor\ForecastDisplay.cs" />
     <Compile Include="Observer\WeatherMonitor\IDisplayElement.cs" />
