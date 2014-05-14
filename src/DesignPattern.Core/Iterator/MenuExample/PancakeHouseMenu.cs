@@ -24,11 +24,10 @@ namespace DesignPattern.Core.Iterator.MenuExample
             MenuItemList.Add(menuItem);
         }
 
-        public List<MenuItem> GetMenuItemList()
+        public Iterator CreateIterator()
         {
-            return MenuItemList;
+            return new PancakeHouseMenuIterator(MenuItemList);
         }
-
         //Other Methods
     }
 }

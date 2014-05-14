@@ -36,9 +36,9 @@ namespace DesignPattern.Core.Iterator.MenuExample
             }
         }
 
-        public MenuItem[] GetMenuItems()
+        public Iterator CreateIterator()
         {
-            return MenuItemArray;
+            return new DinerMenuIterator(MenuItemArray);
         }
     }
 }
