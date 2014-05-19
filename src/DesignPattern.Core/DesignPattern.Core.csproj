@@ -58,6 +58,11 @@
     <Compile Include="Command\SimpleRemoteControl\NoCommand.cs" />
     <Compile Include="Command\SimpleRemoteControl\Receiver.cs" />
     <Compile Include="Command\SimpleRemoteControl\RemoteControl.cs" />
+    <Compile Include="Composite\Iterator.cs" />
+    <Compile Include="Composite\Menu.cs" />
+    <Compile Include="Composite\MenuComponent.cs" />
+    <Compile Include="Composite\MenuItem.cs" />
+    <Compile Include="Composite\MenuIterator.cs" />
     <Compile Include="Decorate\Starbuzz\Beverage.cs" />
     <Compile Include="Decorate\Starbuzz\CondimentDecorator.cs" />
     <Compile Include="Decorate\Starbuzz\DarkRoast.cs" />
