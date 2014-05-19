@@ -23,5 +23,7 @@ namespace DesignPattern.Core.Composite
         public abstract bool GetIsVegetarian();
 
         public abstract void Print();
+
+        public abstract Iterator CreateIterator();
     }
 }

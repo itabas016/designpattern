@@ -69,5 +69,10 @@ namespace DesignPattern.Core.Composite
         {
             return IsVegetarian;
         }
+
+        public override Iterator CreateIterator()
+        {
+            return new NullIterator();
+        }
     }
 }

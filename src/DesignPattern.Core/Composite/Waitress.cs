@@ -19,5 +19,25 @@ namespace DesignPattern.Core.Composite
         {
             AllMenus.Print();
         }
+
+        public void PrintVegetarianMenu()
+        {
+            Iterator iterator = AllMenus.CreateIterator();
+            while (iterator.HasNext())
+            {
+                MenuComponent menuComponent = (MenuComponent)iterator.Next();
+                try
+                {
+                    if (menuComponent.GetIsVegetarian())
+                    {
+                        menuComponent.Print();
+                    }
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+            }
+        }
     }
 }

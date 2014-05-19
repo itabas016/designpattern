@@ -35,9 +35,9 @@ namespace DesignPattern.Core.Composite
             return (MenuComponent)MenuComponents[i];
         }
 
-        public Iterator CreateIterator()
+        public override Iterator CreateIterator()
         {
-            return new MenuIterator(MenuComponents);
+            return new CompositeIterator(new MenuIterator(MenuComponents));
         }
 
         public override string GetName()
