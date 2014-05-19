@@ -46,6 +46,7 @@
     <Compile Include="Exercise\ClassFamily.cs" />
     <Compile Include="Exercise\EventTest.cs" />
     <Compile Include="Exercise\FrameworkDynamic.cs" />
+    <Compile Include="Iterator\MenuExampleTest.cs" />
     <Compile Include="Observer\WeatherMonitorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategy\SimUDuckTest.cs" />
