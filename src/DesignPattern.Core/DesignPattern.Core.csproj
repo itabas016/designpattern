@@ -95,6 +95,7 @@
     <Compile Include="Strategy\SimUDuck\MuteQuack.cs" />
     <Compile Include="Strategy\SimUDuck\RealQuack.cs" />
     <Compile Include="Strategy\SimUDuck\Squeak.cs" />
+    <Compile Include="Template\StarbuzzExample\CaffeineBeverageWithHook.cs" />
     <Compile Include="Template\StarbuzzExample\Coffee.cs" />
     <Compile Include="Template\StarbuzzExample\CoffeineBeverage.cs" />
     <Compile Include="Template\StarbuzzExample\Tea.cs" />
