@@ -11,6 +11,7 @@ namespace DesignPattern.Core.State.GumBallExample
         public IState _NoQuarterState { get; set; }
         public IState _HasQuarterState { get; set; }
         public IState _SoldState { get; set; }
+        public IState _WinnerState { get; set; }
 
         public IState STATE;
         public int COUNT = 0;
@@ -21,6 +22,7 @@ namespace DesignPattern.Core.State.GumBallExample
             _NoQuarterState = new NoQuarterState(this);
             _HasQuarterState = new HasQuarterState(this);
             _SoldState = new SoldState(this);
+            _WinnerState = new WinnerState(this);
 
             STATE = _SoldOutState;
             this.COUNT = numberGumballs;

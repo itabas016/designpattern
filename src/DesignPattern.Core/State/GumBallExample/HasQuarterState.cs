@@ -10,6 +10,7 @@ namespace DesignPattern.Core.State.GumBallExample
     {
         public NewGumBallMachine Machine { get; set; }
 
+        Random randomWinner = new Random(System.DateTime.Now.Millisecond);
         public HasQuarterState(NewGumBallMachine machine)
         {
             this.Machine = machine;
@@ -29,7 +30,15 @@ namespace DesignPattern.Core.State.GumBallExample
         public void TurnCrank()
         {
             Console.WriteLine("You turned.....");
-            Machine.SetState(Machine._SoldState);
+            int winner = randomWinner.Next(10);
+            if ((winner == 0) && Machine.COUNT > 1)
+            {
+                Machine.SetState(Machine._WinnerState);
+            }
+            else
+            {
+                Machine.SetState(Machine._SoldState);
+            }
         }
 
         public void Dispense()

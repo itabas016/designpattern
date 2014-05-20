@@ -106,6 +106,7 @@
     <Compile Include="State\GumBallExample\SoldOutState.cs" />
     <Compile Include="State\GumBallExample\SoldState.cs" />
     <Compile Include="State\GumBallExample\IState.cs" />
+    <Compile Include="State\GumBallExample\WinnerState.cs" />
     <Compile Include="Strategy\SimUDuck\Duck.cs" />
     <Compile Include="Strategy\SimUDuck\FlyNoWay.cs" />
     <Compile Include="Strategy\SimUDuck\FlyRocketPowered.cs" />
