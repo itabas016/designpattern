@@ -58,6 +58,12 @@ namespace DesignPattern.Core.State.GumBallExample
             STATE.Dispense();
         }
 
+        public void Refill(int count)
+        {
+            this.COUNT = count;
+            STATE = _NoQuarterState;
+        }
+
         public void ReleaseBall()
         {
             Console.WriteLine("A gumball comes rolling out the slot.");
