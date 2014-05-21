@@ -66,6 +66,12 @@
     <Compile Include="Composite\MenuIterator.cs" />
     <Compile Include="Composite\NullIterator.cs" />
     <Compile Include="Composite\Waitress.cs" />
+    <Compile Include="Compound\SimUDuckExample\DuckCall.cs" />
+    <Compile Include="Compound\SimUDuckExample\DuckSimulator.cs" />
+    <Compile Include="Compound\SimUDuckExample\IQuackable.cs" />
+    <Compile Include="Compound\SimUDuckExample\MallardDuck.cs" />
+    <Compile Include="Compound\SimUDuckExample\RedheadDuck.cs" />
+    <Compile Include="Compound\SimUDuckExample\RubberDuck.cs" />
     <Compile Include="Decorate\Starbuzz\Beverage.cs" />
     <Compile Include="Decorate\Starbuzz\CondimentDecorator.cs" />
     <Compile Include="Decorate\Starbuzz\DarkRoast.cs" />

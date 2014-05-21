@@ -42,6 +42,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Compound\SimUDuckExampleTest.cs" />
     <Compile Include="Exercise\BasicTest.cs" />
     <Compile Include="Exercise\ClassFamily.cs" />
     <Compile Include="Exercise\DelegateTest.cs" />
