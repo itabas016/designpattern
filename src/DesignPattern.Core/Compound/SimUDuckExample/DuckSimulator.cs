@@ -18,12 +18,15 @@ namespace DesignPattern.Core.Compound.SimUDuckExample
             IQuackable duckCall = new DuckCall();
             IQuackable rubberDuck = new RubberDuck();
 
+            IQuackable gooseDuck = new GooseAdapter(new Goose());
+
             Console.WriteLine("Duck Simulator");
 
             Simulate(mallardDuck);
             Simulate(redheadDuck);
             Simulate(duckCall);
             Simulate(rubberDuck);
+            Simulate(gooseDuck);
         }
 
         public void Simulate(IQuackable duck)
