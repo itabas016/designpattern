@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Exercise\BasicTest.cs" />
     <Compile Include="Exercise\ClassFamily.cs" />
+    <Compile Include="Exercise\DelegateTest.cs" />
     <Compile Include="Exercise\EventTest.cs" />
     <Compile Include="Exercise\FrameworkDynamic.cs" />
     <Compile Include="Iterator\MenuExampleTest.cs" />

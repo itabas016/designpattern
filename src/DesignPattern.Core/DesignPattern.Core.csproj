@@ -74,6 +74,8 @@
     <Compile Include="Decorate\Starbuzz\HouseBlend.cs" />
     <Compile Include="Decorate\Starbuzz\Milk.cs" />
     <Compile Include="Decorate\Starbuzz\Mocha.cs" />
+    <Compile Include="Delegate\Student.cs" />
+    <Compile Include="Delegate\Teacher.cs" />
     <Compile Include="Facade\FamilyCinemaFacade.cs" />
     <Compile Include="Facade\FamilyCinema\Amplifier.cs" />
     <Compile Include="Facade\FamilyCinema\CDPlayer.cs" />
@@ -123,7 +125,9 @@
     <Compile Include="Template\StarbuzzExample\CoffeineBeverage.cs" />
     <Compile Include="Template\StarbuzzExample\Tea.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Proxy\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
