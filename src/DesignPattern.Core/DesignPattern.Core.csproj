@@ -71,11 +71,14 @@
     <Compile Include="Compound\SimUDuckExample\DuckCall.cs" />
     <Compile Include="Compound\SimUDuckExample\DuckFactory.cs" />
     <Compile Include="Compound\SimUDuckExample\DuckSimulator.cs" />
+    <Compile Include="Compound\SimUDuckExample\Flock.cs" />
     <Compile Include="Compound\SimUDuckExample\Goose.cs" />
     <Compile Include="Compound\SimUDuckExample\GooseAdapter.cs" />
     <Compile Include="Compound\SimUDuckExample\IQuackable.cs" />
+    <Compile Include="Compound\SimUDuckExample\Iterator.cs" />
     <Compile Include="Compound\SimUDuckExample\MallardDuck.cs" />
     <Compile Include="Compound\SimUDuckExample\QuackCounter.cs" />
+    <Compile Include="Compound\SimUDuckExample\QuackIterator.cs" />
     <Compile Include="Compound\SimUDuckExample\RedheadDuck.cs" />
     <Compile Include="Compound\SimUDuckExample\RubberDuck.cs" />
     <Compile Include="Decorate\Starbuzz\Beverage.cs" />

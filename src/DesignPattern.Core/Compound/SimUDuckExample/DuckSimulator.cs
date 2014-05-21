@@ -40,13 +40,30 @@ namespace DesignPattern.Core.Compound.SimUDuckExample
 
             IQuackable gooseDuck = new GooseAdapter(new Goose());
 
-            Console.WriteLine("Duck Simulator : with abstract factory method");
+            Console.WriteLine("Duck Simulator : with Composite and Iterator method");
 
-            Simulate(mallardDuck);
-            Simulate(redheadDuck);
-            Simulate(duckCall);
-            Simulate(rubberDuck);
-            Simulate(gooseDuck);
+            Flock flockDucks = new Flock();
+            flockDucks.Add(redheadDuck);
+            flockDucks.Add(duckCall);
+            flockDucks.Add(rubberDuck);
+            flockDucks.Add(gooseDuck);
+
+            Flock flockMallardDucks = new Flock();
+            IQuackable mallardDuckOne = factory.CreateMallardDuck();
+            IQuackable mallardDuckTwo = factory.CreateMallardDuck();
+            IQuackable mallardDuckThree = factory.CreateMallardDuck();
+            flockMallardDucks.Add(mallardDuck);
+            flockMallardDucks.Add(mallardDuckOne);
+            flockMallardDucks.Add(mallardDuckTwo);
+            flockMallardDucks.Add(mallardDuckThree);
+
+            flockDucks.Add(flockMallardDucks);
+
+            Console.WriteLine("Duck Simulator: Whole Flock Simulation.");
+            Simulate(flockDucks);
+
+            Console.WriteLine("Duck Simulator: Mallard Flock Simulation.");
+            Simulate(flockMallardDucks);
 
             Console.WriteLine("The Ducks quacked {0} times", QuackCounter.numberOfQuacks);
         }
