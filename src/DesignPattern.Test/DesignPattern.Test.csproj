@@ -50,6 +50,7 @@
     <Compile Include="Iterator\MenuExampleTest.cs" />
     <Compile Include="Observer\WeatherMonitorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proxy\GiftTest.cs" />
     <Compile Include="Strategy\SimUDuckTest.cs" />
   </ItemGroup>
   <ItemGroup>
