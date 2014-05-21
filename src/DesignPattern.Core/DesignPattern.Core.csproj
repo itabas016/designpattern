@@ -105,6 +105,10 @@
     <Compile Include="Proxy\Gift\IGiveGift.cs" />
     <Compile Include="Proxy\Gift\PurSuit.cs" />
     <Compile Include="Proxy\Gift\SchoolGirl.cs" />
+    <Compile Include="Proxy\MessageExample\IMessage.cs" />
+    <Compile Include="Proxy\MessageExample\Message.cs" />
+    <Compile Include="Proxy\MessageExample\MessageFactory.cs" />
+    <Compile Include="Proxy\MessageExample\MessageProxy.cs" />
     <Compile Include="State\GumBallExample\GumBallMachine.cs" />
     <Compile Include="State\GumBallExample\HasQuarterState.cs" />
     <Compile Include="State\GumBallExample\NewGumBallMachine.cs" />
