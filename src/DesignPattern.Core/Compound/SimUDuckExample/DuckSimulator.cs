@@ -31,6 +31,26 @@ namespace DesignPattern.Core.Compound.SimUDuckExample
             Console.WriteLine("The Ducks quacked {0} times", QuackCounter.numberOfQuacks);
         }
 
+        public void Simulate(AbstractDuckFactory factory)
+        {
+            IQuackable mallardDuck = factory.CreateMallardDuck();
+            IQuackable redheadDuck = factory.CreateRedheadDuck();
+            IQuackable duckCall = factory.CreateDuckCall();
+            IQuackable rubberDuck = factory.CreateRubberDuck();
+
+            IQuackable gooseDuck = new GooseAdapter(new Goose());
+
+            Console.WriteLine("Duck Simulator : with abstract factory method");
+
+            Simulate(mallardDuck);
+            Simulate(redheadDuck);
+            Simulate(duckCall);
+            Simulate(rubberDuck);
+            Simulate(gooseDuck);
+
+            Console.WriteLine("The Ducks quacked {0} times", QuackCounter.numberOfQuacks);
+        }
+
         public void Simulate(IQuackable duck)
         {
             duck.Quack();

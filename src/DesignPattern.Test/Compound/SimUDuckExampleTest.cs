@@ -14,7 +14,8 @@ namespace DesignPattern.Test.Compound
         public void VariableDuckQuackTest()
         {
             var duckSimulator = new DuckSimulator();
-            duckSimulator.Simulate();
+            AbstractDuckFactory factory = new CountingDuckFactory();
+            duckSimulator.Simulate(factory);
         }
     }
 }
