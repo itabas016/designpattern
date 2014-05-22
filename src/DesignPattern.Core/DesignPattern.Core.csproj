@@ -43,6 +43,7 @@
     <Compile Include="Adapter\DuckExample\ITurkey.cs" />
     <Compile Include="Adapter\DuckExample\TurkeyAdpter.cs" />
     <Compile Include="Adapter\DuckExample\WildTurkey.cs" />
+    <Compile Include="Bridge\PermissionRoom\ConcreteRemote.cs" />
     <Compile Include="Bridge\PermissionRoom\RCAControl.cs" />
     <Compile Include="Bridge\PermissionRoom\RemoteControl.cs" />
     <Compile Include="Bridge\PermissionRoom\SonyControl.cs" />
