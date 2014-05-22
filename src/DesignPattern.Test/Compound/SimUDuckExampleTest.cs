@@ -15,7 +15,8 @@ namespace DesignPattern.Test.Compound
         {
             var duckSimulator = new DuckSimulator();
             AbstractDuckFactory factory = new CountingDuckFactory();
-            duckSimulator.Simulate(factory);
+            AbstractGooseFactory gooseFactory = new GooseFactory();
+            duckSimulator.Simulate(factory, gooseFactory);
         }
     }
 }

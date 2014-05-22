@@ -31,14 +31,14 @@ namespace DesignPattern.Core.Compound.SimUDuckExample
             Console.WriteLine("The Ducks quacked {0} times", QuackCounter.numberOfQuacks);
         }
 
-        public void Simulate(AbstractDuckFactory factory)
+        public void Simulate(AbstractDuckFactory duckFactory, AbstractGooseFactory gooseFactory)
         {
-            IQuackable mallardDuck = factory.CreateMallardDuck();
-            IQuackable redheadDuck = factory.CreateRedheadDuck();
-            IQuackable duckCall = factory.CreateDuckCall();
-            IQuackable rubberDuck = factory.CreateRubberDuck();
+            IQuackable mallardDuck = duckFactory.CreateMallardDuck();
+            IQuackable redheadDuck = duckFactory.CreateRedheadDuck();
+            IQuackable duckCall = duckFactory.CreateDuckCall();
+            IQuackable rubberDuck = duckFactory.CreateRubberDuck();
 
-            IQuackable gooseDuck = new GooseAdapter(new Goose());
+            IQuackable gooseDuck = gooseFactory.CreateGoose();
 
             Console.WriteLine("Duck Simulator : with Composite and Iterator method");
 
@@ -49,9 +49,9 @@ namespace DesignPattern.Core.Compound.SimUDuckExample
             flockDucks.Add(gooseDuck);
 
             Flock flockMallardDucks = new Flock();
-            IQuackable mallardDuckOne = factory.CreateMallardDuck();
-            IQuackable mallardDuckTwo = factory.CreateMallardDuck();
-            IQuackable mallardDuckThree = factory.CreateMallardDuck();
+            IQuackable mallardDuckOne = duckFactory.CreateMallardDuck();
+            IQuackable mallardDuckTwo = duckFactory.CreateMallardDuck();
+            IQuackable mallardDuckThree = duckFactory.CreateMallardDuck();
             flockMallardDucks.Add(mallardDuck);
             flockMallardDucks.Add(mallardDuckOne);
             flockMallardDucks.Add(mallardDuckTwo);
