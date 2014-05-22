@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,6 +44,13 @@
     <Compile Include="Adapter\DuckExample\ITurkey.cs" />
     <Compile Include="Adapter\DuckExample\TurkeyAdpter.cs" />
     <Compile Include="Adapter\DuckExample\WildTurkey.cs" />
+    <Compile Include="Bridge\BasicBridge\GridAdapter.cs" />
+    <Compile Include="Bridge\BasicBridge\GridList.cs" />
+    <Compile Include="Bridge\BasicBridge\IBridge.cs" />
+    <Compile Include="Bridge\BasicBridge\IVisList.cs" />
+    <Compile Include="Bridge\BasicBridge\ListBridge.cs" />
+    <Compile Include="Bridge\BasicBridge\Product.cs" />
+    <Compile Include="Bridge\BasicBridge\ProductList.cs" />
     <Compile Include="Bridge\PermissionRoom\ConcreteRemote.cs" />
     <Compile Include="Bridge\PermissionRoom\RCAControl.cs" />
     <Compile Include="Bridge\PermissionRoom\RemoteControl.cs" />
