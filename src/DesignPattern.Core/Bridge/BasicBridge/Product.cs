@@ -19,7 +19,7 @@ namespace DesignPattern.Core.Bridge.BasicBridge
             Quantity = line.Substring(i + 2).Trim();
         }
 
-        int IComparable.CompareTo(object obj)
+        public int CompareTo(object obj)
         {
             Product product = (Product)obj;
             return Name.CompareTo(product.Name);

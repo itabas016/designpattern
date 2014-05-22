@@ -15,7 +15,7 @@ namespace DesignPattern.Core.Bridge.BasicBridge
             this.VisList = list;
         }
 
-        public void AddData(List<IVisList> list)
+        public virtual void AddData(List<IVisList> list)
         {
             for (int i = 0; i < list.Count; i++)
             {

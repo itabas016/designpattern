@@ -51,6 +51,9 @@
     <Compile Include="Bridge\BasicBridge\ListBridge.cs" />
     <Compile Include="Bridge\BasicBridge\Product.cs" />
     <Compile Include="Bridge\BasicBridge\ProductList.cs" />
+    <Compile Include="Bridge\BasicBridge\SortBridge.cs" />
+    <Compile Include="Bridge\BasicBridge\TreeAdapter.cs" />
+    <Compile Include="Bridge\BasicBridge\TreeList.cs" />
     <Compile Include="Bridge\PermissionRoom\ConcreteRemote.cs" />
     <Compile Include="Bridge\PermissionRoom\RCAControl.cs" />
     <Compile Include="Bridge\PermissionRoom\RemoteControl.cs" />
