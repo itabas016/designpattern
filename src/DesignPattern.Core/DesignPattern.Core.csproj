@@ -43,6 +43,9 @@
     <Compile Include="Adapter\DuckExample\ITurkey.cs" />
     <Compile Include="Adapter\DuckExample\TurkeyAdpter.cs" />
     <Compile Include="Adapter\DuckExample\WildTurkey.cs" />
+    <Compile Include="Bridge\PermissionRoom\RCAControl.cs" />
+    <Compile Include="Bridge\PermissionRoom\RemoteControl.cs" />
+    <Compile Include="Bridge\PermissionRoom\SonyControl.cs" />
     <Compile Include="Command\Restaurant\Client.cs" />
     <Compile Include="Command\Restaurant\ICommand.cs" />
     <Compile Include="Command\Restaurant\Invoker.cs" />
