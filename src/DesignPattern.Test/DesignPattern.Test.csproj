@@ -52,6 +52,7 @@
     <Compile Include="Observer\WeatherMonitorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Proxy\GiftTest.cs" />
+    <Compile Include="SingletonTest\SingletonExampleTest.cs" />
     <Compile Include="Strategy\SimUDuckTest.cs" />
   </ItemGroup>
   <ItemGroup>

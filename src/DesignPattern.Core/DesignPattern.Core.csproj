@@ -146,6 +146,7 @@
     <Compile Include="Proxy\MessageExample\Message.cs" />
     <Compile Include="Proxy\MessageExample\MessageFactory.cs" />
     <Compile Include="Proxy\MessageExample\MessageProxy.cs" />
+    <Compile Include="Singleton\Structural\Singleton.cs" />
     <Compile Include="State\GumBallExample\GumBallMachine.cs" />
     <Compile Include="State\GumBallExample\HasQuarterState.cs" />
     <Compile Include="State\GumBallExample\NewGumBallMachine.cs" />
