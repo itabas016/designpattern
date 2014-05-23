@@ -58,6 +58,17 @@
     <Compile Include="Bridge\PermissionRoom\RCAControl.cs" />
     <Compile Include="Bridge\PermissionRoom\RemoteControl.cs" />
     <Compile Include="Bridge\PermissionRoom\SonyControl.cs" />
+    <Compile Include="Builder\RealWorld\CarBuilder.cs" />
+    <Compile Include="Builder\RealWorld\MotorCycleBuilder.cs" />
+    <Compile Include="Builder\RealWorld\ScooterBuilder.cs" />
+    <Compile Include="Builder\RealWorld\Shop.cs" />
+    <Compile Include="Builder\RealWorld\Vehicle.cs" />
+    <Compile Include="Builder\RealWorld\VehicleBuilder.cs" />
+    <Compile Include="Builder\Structural\Builder.cs" />
+    <Compile Include="Builder\Structural\ConcreteBuilder.cs" />
+    <Compile Include="Builder\Structural\ConcreteBuilder2.cs" />
+    <Compile Include="Builder\Structural\Director.cs" />
+    <Compile Include="Builder\Structural\Product.cs" />
     <Compile Include="Command\Restaurant\Client.cs" />
     <Compile Include="Command\Restaurant\ICommand.cs" />
     <Compile Include="Command\Restaurant\Invoker.cs" />
