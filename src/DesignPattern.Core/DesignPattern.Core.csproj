@@ -149,6 +149,9 @@
     <Compile Include="Observer\WeatherMonitor\WeatherData.cs" />
     <Compile Include="Observer\WeatherMonitor\WeatherStation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProtoType\RealWorld\Color.cs" />
+    <Compile Include="ProtoType\RealWorld\ColorManager.cs" />
+    <Compile Include="ProtoType\RealWorld\ColorPrototype.cs" />
     <Compile Include="ProtoType\Structural\ConcreteProtoType.cs" />
     <Compile Include="ProtoType\Structural\ConcreteProtoType2.cs" />
     <Compile Include="ProtoType\Structural\ProtoTypeBase.cs" />
