@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{79226238-9EDC-4013-9CE5-39AD41FD4E21}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E6BCDE91-6B9D-4162-99AA-CA7F6D7C53E1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{98AA246F-3C3E-4187-9BB8-9D2AC9827459}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Core", "DesignPattern.Core\DesignPattern.Core.csproj", "{D37E2313-3058-4320-9163-A0435B602965}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Examples", "DesignPattern.Examples\DesignPattern.Examples.csproj", "{595F6D04-1A9E-44F2-A35B-52414ABD2663}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Test", "DesignPattern.Test\DesignPattern.Test.csproj", "{B51EB498-1F02-4FCC-A04D-B6B0A87B1E53}"
 EndProject
@@ -23,10 +21,6 @@ Global
 		{D37E2313-3058-4320-9163-A0435B602965}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D37E2313-3058-4320-9163-A0435B602965}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D37E2313-3058-4320-9163-A0435B602965}.Release|Any CPU.Build.0 = Release|Any CPU
-		{595F6D04-1A9E-44F2-A35B-52414ABD2663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{595F6D04-1A9E-44F2-A35B-52414ABD2663}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{595F6D04-1A9E-44F2-A35B-52414ABD2663}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{595F6D04-1A9E-44F2-A35B-52414ABD2663}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B51EB498-1F02-4FCC-A04D-B6B0A87B1E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B51EB498-1F02-4FCC-A04D-B6B0A87B1E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B51EB498-1F02-4FCC-A04D-B6B0A87B1E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -38,6 +32,5 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D37E2313-3058-4320-9163-A0435B602965} = {79226238-9EDC-4013-9CE5-39AD41FD4E21}
 		{B51EB498-1F02-4FCC-A04D-B6B0A87B1E53} = {E6BCDE91-6B9D-4162-99AA-CA7F6D7C53E1}
-		{595F6D04-1A9E-44F2-A35B-52414ABD2663} = {98AA246F-3C3E-4187-9BB8-9D2AC9827459}
 	EndGlobalSection
 EndGlobal
