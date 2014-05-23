@@ -49,6 +49,7 @@
     <Compile Include="Exercise\DelegateTest.cs" />
     <Compile Include="Exercise\EventTest.cs" />
     <Compile Include="Exercise\FrameworkDynamic.cs" />
+    <Compile Include="FactoryTest\FactoryExampleTest.cs" />
     <Compile Include="Iterator\MenuExampleTest.cs" />
     <Compile Include="Observer\WeatherMonitorTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

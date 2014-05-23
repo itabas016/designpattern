@@ -133,6 +133,12 @@
     <Compile Include="Facade\FamilyCinema\Screen.cs" />
     <Compile Include="Facade\FamilyCinema\TheaterLights.cs" />
     <Compile Include="Facade\FamilyCinema\Tuner.cs" />
+    <Compile Include="Factory\Strcutural\ConcreteCreatorA.cs" />
+    <Compile Include="Factory\Strcutural\ConcreteCreatorB.cs" />
+    <Compile Include="Factory\Strcutural\ConcreteProductA.cs" />
+    <Compile Include="Factory\Strcutural\ConcreteProductB.cs" />
+    <Compile Include="Factory\Strcutural\Creator.cs" />
+    <Compile Include="Factory\Strcutural\Product.cs" />
     <Compile Include="Iterator\MenuExample\DinerMenu.cs" />
     <Compile Include="Iterator\MenuExample\DinerMenuIterator.cs" />
     <Compile Include="Iterator\MenuExample\Iterator.cs" />
