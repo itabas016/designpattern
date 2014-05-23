@@ -22,5 +22,15 @@ namespace DesignPattern.Core.Compound.SimUDuckExample
             Duck.Quack();
             numberOfQuacks++;
         }
+
+        public void RegisterObserver(IObserver observer)
+        {
+            Duck.RegisterObserver(observer);
+        }
+
+        public void notifyObservers()
+        {
+            Duck.notifyObservers();
+        }
     }
 }

@@ -34,5 +34,20 @@ namespace DesignPattern.Core.Compound.SimUDuckExample
         {
             return new QuackIterator(Quackers);
         }
+
+        public void RegisterObserver(IObserver observer)
+        {
+            Iterator iterator = CreateIterator();
+            while (iterator.HasNext())
+            {
+                IQuackable quacker = (IQuackable)iterator.Next();
+                quacker.RegisterObserver(observer);
+            }
+        }
+
+        public void notifyObservers()
+        {
+
+        }
     }
 }

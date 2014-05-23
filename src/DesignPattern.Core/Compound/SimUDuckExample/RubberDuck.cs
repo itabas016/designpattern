@@ -11,9 +11,27 @@ namespace DesignPattern.Core.Compound.SimUDuckExample
     /// </summary>
     public class RubberDuck : IQuackable
     {
+        public Observable Observable { get; set; }
+
+        public RubberDuck()
+        {
+            this.Observable = new Observable(this);
+        }
+
         public void Quack()
         {
             Console.WriteLine("Squack");
+            notifyObservers();
+        }
+
+        public void RegisterObserver(IObserver observer)
+        {
+            Observable.RegisterObserver(observer);
+        }
+
+        public void notifyObservers()
+        {
+            Observable.notifyObservers();
         }
     }
 }

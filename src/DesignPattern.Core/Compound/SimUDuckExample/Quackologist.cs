@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace DesignPattern.Core.Compound.SimUDuckExample
 {
-    public interface IQuackable : IQuackObservable
+    public class Quackologist : IObserver
     {
-        void Quack();
+        public void Update(IQuackObservable duck)
+        {
+            Console.WriteLine("Quackologist: {0} just quacked.", duck);
+        }
     }
 }

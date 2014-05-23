@@ -76,11 +76,16 @@
     <Compile Include="Compound\SimUDuckExample\Goose.cs" />
     <Compile Include="Compound\SimUDuckExample\GooseAdapter.cs" />
     <Compile Include="Compound\SimUDuckExample\GooseFactory.cs" />
+    <Compile Include="Compound\SimUDuckExample\IObserver.cs" />
+    <Compile Include="Compound\SimUDuckExample\IQuackObservable.cs" />
     <Compile Include="Compound\SimUDuckExample\IQuackable.cs" />
     <Compile Include="Compound\SimUDuckExample\Iterator.cs" />
     <Compile Include="Compound\SimUDuckExample\MallardDuck.cs" />
+    <Compile Include="Compound\SimUDuckExample\Observable.cs" />
+    <Compile Include="Compound\SimUDuckExample\ObserverIterator.cs" />
     <Compile Include="Compound\SimUDuckExample\QuackCounter.cs" />
     <Compile Include="Compound\SimUDuckExample\QuackIterator.cs" />
+    <Compile Include="Compound\SimUDuckExample\Quackologist.cs" />
     <Compile Include="Compound\SimUDuckExample\RedheadDuck.cs" />
     <Compile Include="Compound\SimUDuckExample\RubberDuck.cs" />
     <Compile Include="Decorate\Starbuzz\Beverage.cs" />

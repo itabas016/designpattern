@@ -11,25 +11,29 @@ namespace DesignPattern.Core.Compound.SimUDuckExample
     /// </summary>
     public class DuckSimulator
     {
-        public void Simulate()
-        {
-            IQuackable mallardDuck = new QuackCounter(new MallardDuck());
-            IQuackable redheadDuck = new QuackCounter(new RedheadDuck());
-            IQuackable duckCall = new QuackCounter(new DuckCall());
-            IQuackable rubberDuck = new QuackCounter(new RubberDuck());
 
-            IQuackable gooseDuck = new GooseAdapter(new Goose());
+        #region Older method
+        //public void Simulate()
+        //{
+        //    IQuackable mallardDuck = new QuackCounter(new MallardDuck());
+        //    IQuackable redheadDuck = new QuackCounter(new RedheadDuck());
+        //    IQuackable duckCall = new QuackCounter(new DuckCall());
+        //    IQuackable rubberDuck = new QuackCounter(new RubberDuck());
 
-            Console.WriteLine("Duck Simulator");
+        //    IQuackable gooseDuck = new GooseAdapter(new Goose());
 
-            Simulate(mallardDuck);
-            Simulate(redheadDuck);
-            Simulate(duckCall);
-            Simulate(rubberDuck);
-            Simulate(gooseDuck);
+        //    Console.WriteLine("Duck Simulator");
 
-            Console.WriteLine("The Ducks quacked {0} times", QuackCounter.numberOfQuacks);
-        }
+        //    Simulate(mallardDuck);
+        //    Simulate(redheadDuck);
+        //    Simulate(duckCall);
+        //    Simulate(rubberDuck);
+        //    Simulate(gooseDuck);
+
+        //    Console.WriteLine("The Ducks quacked {0} times", QuackCounter.numberOfQuacks);
+        //} 
+
+        #endregion
 
         public void Simulate(AbstractDuckFactory duckFactory, AbstractGooseFactory gooseFactory)
         {
@@ -59,7 +63,11 @@ namespace DesignPattern.Core.Compound.SimUDuckExample
 
             flockDucks.Add(flockMallardDucks);
 
-            Console.WriteLine("Duck Simulator: Whole Flock Simulation.");
+            Console.WriteLine("Duck Simulator: with observers.");
+
+            Quackologist quackologist = new Quackologist();
+            flockDucks.RegisterObserver(quackologist);
+
             Simulate(flockDucks);
 
             Console.WriteLine("Duck Simulator: Mallard Flock Simulation.");
