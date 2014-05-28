@@ -139,6 +139,10 @@
     <Compile Include="Factory\Strcutural\ConcreteProductB.cs" />
     <Compile Include="Factory\Strcutural\Creator.cs" />
     <Compile Include="Factory\Strcutural\Product.cs" />
+    <Compile Include="Flyweight\Structural\ConcreteFlyweight.cs" />
+    <Compile Include="Flyweight\Structural\Flyweight.cs" />
+    <Compile Include="Flyweight\Structural\FlyweightFactory.cs" />
+    <Compile Include="Flyweight\Structural\UnsharedConcreteFlyweight.cs" />
     <Compile Include="Iterator\MenuExample\DinerMenu.cs" />
     <Compile Include="Iterator\MenuExample\DinerMenuIterator.cs" />
     <Compile Include="Iterator\MenuExample\Iterator.cs" />
