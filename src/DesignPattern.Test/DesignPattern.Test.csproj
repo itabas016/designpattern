@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="BuilderTest\BuilderExampleTest.cs" />
     <Compile Include="ChainTest\ChainOfResponsibilityTest.cs" />
+    <Compile Include="Common\CommonTest.cs" />
     <Compile Include="Compound\SimUDuckExampleTest.cs" />
     <Compile Include="Exercise\BasicTest.cs" />
     <Compile Include="Exercise\ClassFamily.cs" />

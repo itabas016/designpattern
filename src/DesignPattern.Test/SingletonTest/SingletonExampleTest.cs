@@ -42,5 +42,21 @@ namespace DesignPattern.Test.SingletonTest
                 Console.WriteLine("The instance is not same.");
             }
         }
+
+        [Fact]
+        public void ArraryTest()
+        {
+            var array = new String[] { "a", "b", "c" };
+
+            foreach (var item in array)
+            {
+                Console.WriteLine("Foreach:" + item);
+            }
+
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.WriteLine("For:" + array[i]);
+            }
+        }
     }
 }
