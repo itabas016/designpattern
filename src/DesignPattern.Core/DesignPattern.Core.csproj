@@ -119,6 +119,7 @@
     <Compile Include="Compound\SimUDuckExample\RedheadDuck.cs" />
     <Compile Include="Compound\SimUDuckExample\RubberDuck.cs" />
     <Compile Include="Decorate\Starbuzz\Beverage.cs" />
+    <Compile Include="Decorate\Starbuzz\BeverageSize.cs" />
     <Compile Include="Decorate\Starbuzz\CondimentDecorator.cs" />
     <Compile Include="Decorate\Starbuzz\DarkRoast.cs" />
     <Compile Include="Decorate\Starbuzz\Decat.cs" />
@@ -126,6 +127,8 @@
     <Compile Include="Decorate\Starbuzz\HouseBlend.cs" />
     <Compile Include="Decorate\Starbuzz\Milk.cs" />
     <Compile Include="Decorate\Starbuzz\Mocha.cs" />
+    <Compile Include="Decorate\Starbuzz\Soy.cs" />
+    <Compile Include="Decorate\Starbuzz\Whip.cs" />
     <Compile Include="Delegate\Student.cs" />
     <Compile Include="Delegate\Teacher.cs" />
     <Compile Include="Facade\FamilyCinemaFacade.cs" />

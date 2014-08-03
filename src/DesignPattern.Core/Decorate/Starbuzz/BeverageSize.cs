@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DesignPattern.Core.Decorate.Starbuzz
 {
-    public abstract class Beverage
+    public enum BeverageSize
     {
-        public string Description { get; set; }
-
-        public abstract double Cost();
+        TALL,//小杯
+        GRANDE,//中杯
+        VENTI//大杯
     }
 }

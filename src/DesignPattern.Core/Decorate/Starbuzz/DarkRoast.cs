@@ -13,7 +13,7 @@ namespace DesignPattern.Core.Decorate.Starbuzz
     {
         public DarkRoast()
         {
-            description = "Dark Roast Coffee";
+            this.Description = "Dark Roast Coffee";
         }
 
         public override double Cost()

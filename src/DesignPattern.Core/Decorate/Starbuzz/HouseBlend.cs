@@ -13,7 +13,7 @@ namespace DesignPattern.Core.Decorate.Starbuzz
     {
         public HouseBlend()
         {
-            description = "House Blend Coffee";
+            this.Description = "House Blend Coffee";
         }
 
         public override double Cost()

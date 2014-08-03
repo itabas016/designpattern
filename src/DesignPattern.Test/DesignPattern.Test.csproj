@@ -46,6 +46,7 @@
     <Compile Include="ChainTest\ChainOfResponsibilityTest.cs" />
     <Compile Include="Common\CommonTest.cs" />
     <Compile Include="Compound\SimUDuckExampleTest.cs" />
+    <Compile Include="Decorate\StatbuzzTest.cs" />
     <Compile Include="Exercise\BasicTest.cs" />
     <Compile Include="Exercise\ClassFamily.cs" />
     <Compile Include="Exercise\DelegateTest.cs" />

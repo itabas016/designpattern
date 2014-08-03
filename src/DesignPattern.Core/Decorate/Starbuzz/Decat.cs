@@ -13,7 +13,7 @@ namespace DesignPattern.Core.Decorate.Starbuzz
     {
         public Decat()
         {
-            description = "Decat Coffee";
+            this.Description = "Decat Coffee";
         }
 
         public override double Cost()

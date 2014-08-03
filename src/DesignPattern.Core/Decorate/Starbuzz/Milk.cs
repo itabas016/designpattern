@@ -8,21 +8,17 @@ namespace DesignPattern.Core.Decorate.Starbuzz
 {
     public class Milk : CondimentDecorator
     {
-        public Beverage beverage { get; set; }
+        public Beverage Beverage { get; set; }
 
         public Milk(Beverage beverage)
         {
-            this.beverage = beverage;
+            this.Beverage = beverage;
+            this.Description = Beverage.Description + ", Milk";
         }
 
-        public override string GetDescription()
+        public override double Cost()
         {
-            return beverage.GetDescription() + ", Milk";
-        }
-
-        public double Cost()
-        {
-            return 0.20 + beverage.Cost();
+            return 0.20 + Beverage.Cost();
         }
     }
 }

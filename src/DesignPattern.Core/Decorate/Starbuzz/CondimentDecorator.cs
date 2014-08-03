@@ -8,11 +8,8 @@ namespace DesignPattern.Core.Decorate.Starbuzz
 {
     public abstract class CondimentDecorator : Beverage
     {
-        public abstract string GetDescription();
+        public BeverageSize Size { get; set; }
 
-        public override double Cost()
-        {
-            throw new NotImplementedException();
-        }
+        public abstract override double Cost();
     }
 }
