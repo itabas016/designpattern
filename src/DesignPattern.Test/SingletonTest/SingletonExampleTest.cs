@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DesignPattern.Core.Singleton.StaticSingleton;
 using DesignPattern.Core.Singleton.Structural;
 using Xunit;
 
@@ -13,8 +14,8 @@ namespace DesignPattern.Test.SingletonTest
         [Fact]
         public void StructualTest()
         {
-            Singleton s1 = Singleton.Instance();
-            Singleton s2 = Singleton.Instance();
+            var s1 = DesignPattern.Core.Singleton.Structural.Singleton.Instance();
+            var s2 = DesignPattern.Core.Singleton.Structural.Singleton.Instance();
 
             if (s1 == s2)
             {
@@ -34,6 +35,38 @@ namespace DesignPattern.Test.SingletonTest
             var s2 = DesignPattern.Core.Singleton.StaticSingleton.Singleton.Instance;
 
             if (s1 == s2)
+            {
+                Console.WriteLine("The instance is same ,this is singleton pattern.");
+            }
+            else
+            {
+                Console.WriteLine("The instance is not same.");
+            }
+        }
+
+        [Fact]
+        public void LazySingletonTest()
+        {
+            var s1 = DesignPattern.Core.Singleton.LazySingleton.Singleton.GetInstance();
+
+            var s2 = DesignPattern.Core.Singleton.LazySingleton.Singleton.GetInstance();
+
+            if (s1 == s2)
+            {
+                Console.WriteLine("The instance is same ,this is singleton pattern.");
+            }
+            else
+            {
+                Console.WriteLine("The instance is not same.");
+            }
+        }
+
+        [Fact]
+        public void SingletonBaseTest()
+        {
+            var client1 = Client.instance;
+            var client2 = Client.instance;
+            if (client1 == client2)
             {
                 Console.WriteLine("The instance is same ,this is singleton pattern.");
             }

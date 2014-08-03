@@ -180,7 +180,10 @@
     <Compile Include="Proxy\MessageExample\Message.cs" />
     <Compile Include="Proxy\MessageExample\MessageFactory.cs" />
     <Compile Include="Proxy\MessageExample\MessageProxy.cs" />
+    <Compile Include="Singleton\LazySingleton\Singleton.cs" />
+    <Compile Include="Singleton\StaticSingleton\Client.cs" />
     <Compile Include="Singleton\StaticSingleton\Singleton.cs" />
+    <Compile Include="Singleton\StaticSingleton\SingletonBase.cs" />
     <Compile Include="Singleton\Structural\Singleton.cs" />
     <Compile Include="State\GumBallExample\GumBallMachine.cs" />
     <Compile Include="State\GumBallExample\HasQuarterState.cs" />
