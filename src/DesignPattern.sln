@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{79226238-9EDC-4013-9CE5-39AD41FD4E21}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E6BCDE91-6B9D-4162-99AA-CA7F6D7C53E1}"
@@ -10,6 +8,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Core", "DesignPattern.Core\DesignPattern.Core.csproj", "{D37E2313-3058-4320-9163-A0435B602965}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Test", "DesignPattern.Test\DesignPattern.Test.csproj", "{B51EB498-1F02-4FCC-A04D-B6B0A87B1E53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Function.Test", "Function.Test\Function.Test.csproj", "{EAC650F5-3499-4A42-981A-90B0E11D8AF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +25,10 @@ Global
 		{B51EB498-1F02-4FCC-A04D-B6B0A87B1E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B51EB498-1F02-4FCC-A04D-B6B0A87B1E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B51EB498-1F02-4FCC-A04D-B6B0A87B1E53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC650F5-3499-4A42-981A-90B0E11D8AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC650F5-3499-4A42-981A-90B0E11D8AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC650F5-3499-4A42-981A-90B0E11D8AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC650F5-3499-4A42-981A-90B0E11D8AF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +36,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D37E2313-3058-4320-9163-A0435B602965} = {79226238-9EDC-4013-9CE5-39AD41FD4E21}
 		{B51EB498-1F02-4FCC-A04D-B6B0A87B1E53} = {E6BCDE91-6B9D-4162-99AA-CA7F6D7C53E1}
+		{EAC650F5-3499-4A42-981A-90B0E11D8AF4} = {E6BCDE91-6B9D-4162-99AA-CA7F6D7C53E1}
 	EndGlobalSection
 EndGlobal

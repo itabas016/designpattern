@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace DesignPattern.Test.Common
+namespace Function.Test.Common
 {
     public class CommonTest
     {
