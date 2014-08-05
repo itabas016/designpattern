@@ -20,7 +20,7 @@ namespace DesignPattern.Test.Common
             GC.SuppressFinalize(this);
         }
 
-        private virtual void Dispose(bool disposing)
+        public virtual void Dispose(bool disposing)
         {
             if (!disposing)
             {
