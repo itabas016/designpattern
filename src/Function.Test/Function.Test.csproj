@@ -42,11 +42,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithm\SortTester.cs" />
     <Compile Include="Common\CommonTest.cs" />
     <Compile Include="Common\DisposeTest.cs" />
     <Compile Include="Common\ValueAndReferenceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
