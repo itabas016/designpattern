@@ -46,6 +46,10 @@
     <Compile Include="Common\CommonTest.cs" />
     <Compile Include="Common\DisposeTest.cs" />
     <Compile Include="Common\ValueAndReferenceTest.cs" />
+    <Compile Include="Delegate\DelegateExtension.cs" />
+    <Compile Include="Delegate\DelegateFactory.cs" />
+    <Compile Include="Delegate\DelegateTest.cs" />
+    <Compile Include="Delegate\MyDelegate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
