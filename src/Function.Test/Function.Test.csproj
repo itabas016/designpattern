@@ -45,7 +45,9 @@
     <Compile Include="Algorithm\SortTester.cs" />
     <Compile Include="Common\CommonTest.cs" />
     <Compile Include="Common\DisposeTest.cs" />
+    <Compile Include="Common\TupleTest.cs" />
     <Compile Include="Common\ValueAndReferenceTest.cs" />
+    <Compile Include="Common\YieldTest.cs" />
     <Compile Include="Delegate\DelegateExtension.cs" />
     <Compile Include="Delegate\DelegateFactory.cs" />
     <Compile Include="Delegate\DelegateTest.cs" />
