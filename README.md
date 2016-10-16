@@ -1,26 +1,29 @@
 #Design Patterns - Head First Series
-See the below list:
+These are the most popular patterns, See the below list:
 
 * **[Adapter Pattern](#adapter-pattern)**
-* **[Bridge Pattern](#bridge-pattern)**
-* **[Builder Pattern](#builder-pattern)**
 * **[Command Pattern](#command-pattern)**
 * **[Composite Pattern](#composite-pattern)**
 * **[Compound Pattern](#compound-pattern)**
 * **[Decorate Pattern](#decorate-pattern)**
 * **[Delegate Pattern](#delegate-pattern)**
-* **[Facade Pattern](#facade-pattern)**
 * **[Factory Pattern](#factory-pattern)**
 * **[Abstract Factory Pattern](#abstract-factory-pattern)**
-* **[Flyweight Pattern](#flyweight-pattern)**
 * **[Iterator Pattern](#iterator-pattern)**
 * **[Observer Pattern](#observer-pattern)**
-* **[ProtoType Pattern](#prototype-pattern)**
 * **[Proxy Pattern](#proxy-pattern)**
 * **[Singleton Pattern](#singleton-pattern)**
 * **[State Pattern](#state-pattern)**
 * **[Strategry Pattern](#strategry-pattern)**
 * **[Template Pattern](#template-pattern)**
+
+BTW, some others patterns, see the detail below:
+* **[Bridge Pattern](https://www.tutorialspoint.com/design_pattern/bridge_pattern.htm)**
+* **[Mediator Pattern](https://www.tutorialspoint.com/design_pattern/mediator_pattern.htm)**
+* **[Builder Pattern](https://www.tutorialspoint.com/design_pattern/builder_pattern.htm)**
+* **[Facade Pattern](https://www.tutorialspoint.com/design_pattern/facade_pattern.htm)**
+* **[Flyweight Pattern](https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm)**
+* **[ProtoType Pattern](https://www.tutorialspoint.com/design_pattern/prototype_pattern.htm)**
 
 ###Adapter-Pattern
 Adapter pattern works as a bridge between two incompatible interfaces. This type of design pattern comes under structural pattern as this pattern combines the capability of two independent interfaces.
@@ -94,6 +97,18 @@ Headfirst example code see project.
 
 Detail tutorialspoint example code see [here](https://www.tutorialspoint.com/design_pattern/singleton_pattern.htm)
 
+###Strategy-Pattern
+In Strategy pattern, a class behavior or its algorithm can be changed at run time. This type of design pattern comes under behavior pattern.
+
+In Strategy pattern, we create objects which represent various strategies and a context object whose behavior varies as per its strategy object. The strategy object changes the executing algorithm of the context object.
+
+#####Implementation
+![strategy]
+
+Headfirst example code see project.
+
+Detail tutorialspoint example code see [here](https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm)
+
 ###Command-Pattern
 Command pattern is a data driven design pattern and falls under behavioral pattern category. A request is wrapped under an object as command and passed to invoker object. Invoker object looks for the appropriate object which can handle this command and passes the command to the corresponding object which executes the command.
 
@@ -140,17 +155,53 @@ Headfirst example code see project.
 
 Detail tutorialspoint example code see [here](https://www.tutorialspoint.com/design_pattern/composite_pattern.htm)
 
+###State-Pattern
+In State pattern a class behavior changes based on its state. This type of design pattern comes under behavior pattern.
+
+In State pattern, we create objects which represent various states and a context object whose behavior varies as its state object changes.
+
+#####Implementation
+![state]
+
+Headfirst example code see project.
+
+Detail tutorialspoint example code see [here](https://www.tutorialspoint.com/design_pattern/state_pattern.htm)
+
+###Proxy-Pattern
+In proxy pattern, a class represents functionality of another class. This type of design pattern comes under structural pattern.
+
+In proxy pattern, we create object having original object to interface its functionality to outer world.
+
+#####Implementation
+![proxy]
+
+Headfirst example code see project.
+
+Detail tutorialspoint example code see [here](https://www.tutorialspoint.com/design_pattern/proxy_pattern.htm)
+
+###Compound-Pattern
+In proxy pattern, a class represents functionality of another class. This type of design pattern comes under structural pattern.
+
+In proxy pattern, we create object having original object to interface its functionality to outer world.
+
+#####Implementation
+![compound]
+
+Headfirst example code see project.
+
+Detail tutorialspoint example code see [here](https://www.tutorialspoint.com/design_pattern/proxy_pattern.htm)
+
 [adapter]: img/adapter_pattern_uml_diagram.jpg
 [observer]: img/observer_pattern_uml_diagram.jpg
 [decorate]: img/decorator_pattern_uml_diagram.jpg
 [factory]: img/factory_pattern_uml_diagram.jpg
 [abstract-factory]: img/abstractfactory_pattern_uml_diagram.jpg
 [singleton]: img/singleton_pattern_uml_diagram.jpg
+[strategy]: img/strategy_pattern_uml_diagram.jpg
 [command]: img/command_pattern_uml_diagram.jpg
 [template]: img/template_pattern_uml_diagram.jpg
 [iterator]: img/iterator_pattern_uml_diagram.jpg
 [composite]: img/composite_pattern_uml_diagram.jpg
-
-
-
-
+[state]: img/state_pattern_uml_diagram.jpg
+[proxy]: img/proxy_pattern_uml_diagram.jpg
+[compound]: img/proxy_pattern_uml_diagram.jpg
