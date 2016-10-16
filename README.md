@@ -1,25 +1,25 @@
 #Design Patterns - Head First Series
 See the below list:
 
-* **[Adapter Pattern](#Adapter-Pattern)**
-* **[Bridge Pattern](#Bridge-Pattern)**
-* **[Builder Pattern](#Builder-Pattern)**
-* **[Command Pattern](#Command-Pattern)**
-* **[Composite Pattern](#Composite-Pattern)**
-* **[Compound Pattern](#Compound-Pattern)**
-* **[Decorate Pattern](#Decorate-Pattern)**
-* **[Delegate Pattern](#Adapter-Pattern)**
-* **[Facade Pattern](#Facade-Pattern)**
-* **[Factory Pattern](#Factory-Pattern)**
-* **[Flyweight Pattern](#Flyweight-Pattern)**
-* **[Iterator Pattern](#Iterator-Pattern)**
-* **[Observer Pattern](#Observer-Pattern)**
-* **[ProtoType Pattern](#ProtoType-Pattern)**
-* **[Proxy Pattern](#Proxy-Pattern)**
-* **[Singleton Pattern](#Singleton-Pattern)**
-* **[State Pattern](#State-Pattern)**
-* **[Strategry Pattern](#Strategry-Pattern)**
-* **[Template Pattern](#Template-Pattern)**
+* **[Adapter Pattern](#adapter-pattern)**
+* **[Bridge Pattern](#bridge-pattern)**
+* **[Builder Pattern](#builder-pattern)**
+* **[Command Pattern](#command-pattern)**
+* **[Composite Pattern](#composite-pattern)**
+* **[Compound Pattern](#compound-pattern)**
+* **[Decorate Pattern](#decorate-pattern)**
+* **[Delegate Pattern](#delegate-pattern)**
+* **[Facade Pattern](#facade-pattern)**
+* **[Factory Pattern](#factory-pattern)**
+* **[Flyweight Pattern](#flyweight-pattern)**
+* **[Iterator Pattern](#iterator-pattern)**
+* **[Observer Pattern](#observer-pattern)**
+* **[ProtoType Pattern](#prototype-pattern)**
+* **[Proxy Pattern](#proxy-pattern)**
+* **[Singleton Pattern](#singleton-pattern)**
+* **[State Pattern](#state-pattern)**
+* **[Strategry Pattern](#strategry-pattern)**
+* **[Template Pattern](#template-pattern)**
 
 ###Adapter-Pattern
 Adapter pattern works as a bridge between two incompatible interfaces. This type of design pattern comes under structural pattern as this pattern combines the capability of two independent interfaces.
