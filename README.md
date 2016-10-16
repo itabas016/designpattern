@@ -14,7 +14,7 @@ These are the most popular patterns, See the below list:
 * **[Proxy Pattern](#proxy-pattern)**
 * **[Singleton Pattern](#singleton-pattern)**
 * **[State Pattern](#state-pattern)**
-* **[Strategry Pattern](#strategry-pattern)**
+* **[Strategy Pattern](#strategy-pattern)**
 * **[Template Pattern](#template-pattern)**
 
 BTW, some others patterns, see the detail below:
