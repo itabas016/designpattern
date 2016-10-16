@@ -27,19 +27,21 @@ Adapter pattern works as a bridge between two incompatible interfaces. This type
 This pattern involves a single class which is responsible to join functionalities of independent or incompatible interfaces. A real life example could be a case of card reader which acts as an adapter between memory card and a laptop. You plugin the memory card into card reader and card reader into the laptop so that memory card can be read via laptop.
 
 #####Implementation
-[adapter]
+![adapter]
 
 Headfirst example code see project.
+
 Detail tutorialspoint example code see [here](https://www.tutorialspoint.com/design_pattern/adapter_pattern.htm)
 
 ###Observer-Pattern
 Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified, its depenedent objects are to be notified automatically. Observer pattern falls under behavioral pattern category.
 
 #####Implementation
-[observer]
+![observer]
 
 Headfirst example code see project.
+
 Detail tutorialspoint example code see [here](https://www.tutorialspoint.com/design_pattern/observer_pattern.htm)
 
-[adapter]: (../img/adapter_pattern_uml_diagram.jpg)
-[observer]: (../img/observer_pattern_uml_diagram.jpg)
+[adapter]: img/adapter_pattern_uml_diagram.jpg
+[observer]: img/observer_pattern_uml_diagram.jpg
