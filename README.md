@@ -80,11 +80,77 @@ In Abstract Factory pattern an interface is responsible for creating a factory o
 
 Headfirst example code see project.
 
-Detail tutorialspoint example code see [here](https://www.tutorialspoint.com/design_pattern/factory_pattern.htm)
+Detail tutorialspoint example code see [here](https://www.tutorialspoint.com/design_pattern/abstract_factory_pattern.htm)
+
+###Singleton-Pattern
+Singleton pattern is one of the simplest design patterns. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+
+This pattern involves a single class which is responsible to create an object while making sure that only single object gets created. This class provides a way to access its only object which can be accessed directly without need to instantiate the object of the class.
+
+#####Implementation
+![singleton]
+
+Headfirst example code see project.
+
+Detail tutorialspoint example code see [here](https://www.tutorialspoint.com/design_pattern/singleton_pattern.htm)
+
+###Command-Pattern
+Command pattern is a data driven design pattern and falls under behavioral pattern category. A request is wrapped under an object as command and passed to invoker object. Invoker object looks for the appropriate object which can handle this command and passes the command to the corresponding object which executes the command.
+
+#####Implementation
+![command]
+
+Headfirst example code see project.
+
+Detail tutorialspoint example code see [here](https://www.tutorialspoint.com/design_pattern/command_pattern.htm)
+
+###Template-Pattern
+In Template pattern, an abstract class exposes defined way(s)/template(s) to execute its methods. Its subclasses can override the method implementation as per need but the invocation is to be in the same way as defined by an abstract class. This pattern comes under behavior pattern category.
+
+#####Implementation
+![template]
+
+Headfirst example code see project.
+
+Detail tutorialspoint example code see [here](https://www.tutorialspoint.com/design_pattern/template_pattern.htm)
+
+###Iterator-Pattern
+Iterator pattern is very commonly used design pattern in Java and .Net programming environment. This pattern is used to get a way to access the elements of a collection object in sequential manner without any need to know its underlying representation.
+
+Iterator pattern falls under behavioral pattern category.
+
+#####Implementation
+![iterator]
+
+Headfirst example code see project.
+
+Detail tutorialspoint example code see [here](https://www.tutorialspoint.com/design_pattern/iterator_pattern.htm)
+
+###Composite-Pattern
+Composite pattern is used where we need to treat a group of objects in similar way as a single object. Composite pattern composes objects in term of a tree structure to represent part as well as whole hierarchy. This type of design pattern comes under structural pattern as this pattern creates a tree structure of group of objects.
+
+This pattern creates a class that contains group of its own objects. This class provides ways to modify its group of same objects.
+
+Iterator pattern falls under behavioral pattern category.
+
+#####Implementation
+![composite]
+
+Headfirst example code see project.
+
+Detail tutorialspoint example code see [here](https://www.tutorialspoint.com/design_pattern/composite_pattern.htm)
 
 [adapter]: img/adapter_pattern_uml_diagram.jpg
 [observer]: img/observer_pattern_uml_diagram.jpg
 [decorate]: img/decorator_pattern_uml_diagram.jpg
 [factory]: img/factory_pattern_uml_diagram.jpg
 [abstract-factory]: img/abstractfactory_pattern_uml_diagram.jpg
+[singleton]: img/singleton_pattern_uml_diagram.jpg
+[command]: img/command_pattern_uml_diagram.jpg
+[template]: img/template_pattern_uml_diagram.jpg
+[iterator]: img/iterator_pattern_uml_diagram.jpg
+[composite]: img/composite_pattern_uml_diagram.jpg
+
+
+
 
