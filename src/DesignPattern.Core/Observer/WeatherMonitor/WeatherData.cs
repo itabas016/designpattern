@@ -18,7 +18,7 @@ namespace DesignPattern.Core.Observer.WeatherMonitor
 
         public WeatherData()
         {
-
+            ObserverList = new List<IObserver>();
         }
 
         public WeatherData(double temperature, double humidity, double pressure)

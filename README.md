@@ -1,6 +1,6 @@
 #Design Patterns - Head First Series
 
-Travis:   [![Build Status](https://travis-ci.org/itabas016/designpattern.svg?branch=master)](https://travis-ci.org/itabas016/designpattern)
+[![Build Status](https://travis-ci.org/itabas016/designpattern.svg?branch=master)](https://travis-ci.org/itabas016/designpattern)
 
 These are the most popular patterns, See the below list:
 

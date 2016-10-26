@@ -18,12 +18,16 @@ namespace DesignPattern.Core.Iterator.MenuExample
 
         public bool HasNext()
         {
-            if (MenuItemList[postion] == null)
+            if (postion >= MenuItemList.Count)
             {
                 return false;
             }
             else
             {
+                if (MenuItemList[postion] == null)
+                {
+                    return false;
+                }
                 return true;
             }
         }

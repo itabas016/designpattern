@@ -17,6 +17,10 @@ namespace DesignPattern.Core.Observer.WeatherMonitor
             ForecastDisplay forecasst = new ForecastDisplay(weatherData);
 
             weatherData.SetMeasurements(20, 50, 35);
+
+            currentCondition.Display();
+            statistic.Display();
+            forecasst.Display();
         }
     }
 }

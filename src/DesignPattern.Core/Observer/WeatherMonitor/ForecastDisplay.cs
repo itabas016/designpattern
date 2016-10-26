@@ -8,6 +8,12 @@ namespace DesignPattern.Core.Observer.WeatherMonitor
 {
     public class ForecastDisplay : IObserver, IDisplayElement
     {
+        public double Temperature { get; set; }
+
+        public double Humidirty { get; set; }
+
+        public double Pressure { get; set; }
+
         public ISubject Subject { get; set; }
 
         public ForecastDisplay(ISubject subject)
@@ -18,12 +24,14 @@ namespace DesignPattern.Core.Observer.WeatherMonitor
 
         public void Update(double temperature, double humidity, double pressure)
         {
-            throw new NotImplementedException();
+            this.Temperature = temperature;
+            this.Humidirty = humidity;
+            Display();
         }
 
         public void Display()
         {
-            throw new NotImplementedException();
+            Console.WriteLine(string.Format("Forecast today is : temperature {0} degrees, humidity {1} %humidity and pressure {2} pressure!", Temperature, Humidirty, Pressure));
         }
     }
 }
