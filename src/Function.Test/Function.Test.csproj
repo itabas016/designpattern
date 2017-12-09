@@ -43,8 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithm\SortTester.cs" />
+    <Compile Include="Common\BasicTypeTest.cs" />
     <Compile Include="Common\CommonTest.cs" />
     <Compile Include="Common\DisposeTest.cs" />
+    <Compile Include="Common\GenericTest.cs" />
+    <Compile Include="Common\StaticObjectTest.cs" />
     <Compile Include="Common\TupleTest.cs" />
     <Compile Include="Common\ValueAndReferenceTest.cs" />
     <Compile Include="Common\YieldTest.cs" />
